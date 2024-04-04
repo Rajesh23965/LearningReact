@@ -1,0 +1,19 @@
+.mathematician {
+    background-color: rgb(163, 163, 37);
+    color: blueviolet;
+  }
+
+.physicist {
+    background-color: rgb(37, 113, 138);
+    color: black;
+  }
+
+  .chemist {
+    background-color: lightgreen;
+    color:green;
+  }
+  
+  .astrophysicist {
+    background-color: palevioletred;
+    color: brown;
+  }

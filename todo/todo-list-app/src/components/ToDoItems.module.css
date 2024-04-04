@@ -1,0 +1,16 @@
+.itemsContainer {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+} 
+
+.todoItem{
+  background-color: #fcd116;
+  padding: 10px;
+  color: red;
+}
+
+.todoItem:nth-child(even) {
+  background-color: #020000;
+  color: blue;
+}

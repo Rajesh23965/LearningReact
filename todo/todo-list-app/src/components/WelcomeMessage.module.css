@@ -1,0 +1,8 @@
+.welcomeMsg{
+    font-size: 2rem;
+    font-weight: 300px;
+    color: rgb(17, 19, 99);
+    margin: 9rem;
+    /* background-color: yellow; */
+    /* display: inline; */
+}

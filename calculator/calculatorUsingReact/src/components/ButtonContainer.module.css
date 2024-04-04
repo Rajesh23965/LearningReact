@@ -1,0 +1,16 @@
+.buttonContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button {
+    width: 45px;
+    height: 45px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
