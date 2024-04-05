@@ -1,0 +1,19 @@
+*{
+    background-color: blueviolet;
+    margin: o;
+    padding: o;
+}
+
+div{
+    text-align: center;
+}
+
+h1{
+    color: red;
+    font-size: 3rem;
+}
+
+p{
+    background-color: yellow;
+    display: inline;
+}
