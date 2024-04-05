@@ -1,16 +1,16 @@
-.buttonContainer {
+.ButtonContainer {
     display: flex;
-    flex-wrap: wrap; /* Allow wrapping to the next line if needed */
+    flex-wrap: wrap;     /*Allow wrapping to the next line if needed  */
     justify-content: center;
     align-items: center;
   }
-  
-  .button {
+
+ .button {
     width: 45px;
-    height: 45px;
+    height: 34px;
     margin: 8px;
-    display: flex;
-    justify-content: center;
+    display: inline-block;
+    /* justify-content: center; */
     align-items: center;
-  }
+  } 
   

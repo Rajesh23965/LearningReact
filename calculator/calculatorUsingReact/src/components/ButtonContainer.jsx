@@ -17,11 +17,11 @@ const ButtonContainer = ({ onButtonClick }) => {
     "3",
     "2",
     "1",
-    "=",
     ".",
+    "=",
   ];
   return (
-    <div className={styles.buttonContainer}>
+    <div className={styles.ButtonContainer}>
       {buttonsName.map((buttonName) => (
         <button
           key={buttonName}

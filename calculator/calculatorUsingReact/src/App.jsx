@@ -1,7 +1,7 @@
 import styles from "./App.module.css";
 import Display from "./components/Display";
 import ButtonContainer from "./components/ButtonContainer";
-import React, { useState } from "react";
+import { useState } from "react";
 
 function App() {
   const [calVal, setCalVal] = useState("");
@@ -17,7 +17,7 @@ function App() {
       let newDisplayValue;
       if (buttonText === "+" || buttonText === "-") {
         // Add line break before operators
-        newDisplayValue = calVal + "\n" + buttonText;
+        newDisplayValue = calVal + buttonText;
       } else {
         newDisplayValue = calVal + buttonText;
       }

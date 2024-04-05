@@ -1,8 +1,9 @@
-.display {
-    margin: 10px;
-    width: 220px;
-    font-size: 25px;
-    display: inline-flex;
-  }
-  
+.Display {
+  margin: 10px;
+  width: 220px;
+  font-size: 25px;
+  display:inline-block;
+  justify-content: center;
+  align-items: center;
+}
   
